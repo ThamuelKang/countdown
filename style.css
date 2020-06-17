@@ -1,0 +1,50 @@
+
+@font-face {
+    font-family: Silka;
+    font-weight: 700;
+    src: url("silka-bold-webfont.woff");
+  }
+
+
+body {
+    background-color: #040D15;
+    color: white;
+    font-size: 16px;
+}
+
+  .time {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+section{
+    margin-top: 300px;
+}
+
+
+h1 {
+    font-family: Silka;
+    font-size: 48px;
+    text-align: center;
+    margin: 0 0 55px 0;
+}
+
+h2 {
+    display: flex;
+    padding: 0 40px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Do Hyeon', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: .09em;
+}
+
+h2 span {
+    font-size: 96px;
+    font-family: 'Space Mono', mono space;
+    font-weight: 700;
+}
